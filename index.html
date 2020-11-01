@@ -1,0 +1,47 @@
+<html>
+    <head>
+    <title>Multiplication Table</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.p {
+    display: block;
+    text-align: center;
+}
+
+.grad {
+    background-image: linear-gradient(#7400b8, #6930c3, #5e60ce, #5390d9, #4ea8de, #48bfe3, #56cfe1, #64dfdf);
+}
+* h1 {
+color: #80ffdb;
+display: block;
+text-align: center;
+}
+.body {
+    color: #80ffdb;
+    font-size:2em;
+    font-weight: 20%;
+    font-family:sans-serif;
+    display:block;
+    text-align: center;
+}
+.button {
+    
+}
+
+</style>
+    </head>
+    <body class="grad">
+        <div id="form">
+            <h1>Multiplication Table</h1>
+            <form action="./table.php" method="post">
+                Enter Row:<input required type="text" name="row" placeholder="row">
+              
+                Enter Column: <input required type="text" name="col" placeholder="col">
+              
+                <input type="submit">
+              </form>
+        </div>
+        
+    </body>
+</html>
